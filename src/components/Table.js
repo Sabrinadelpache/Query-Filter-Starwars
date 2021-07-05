@@ -3,7 +3,7 @@ import StarwarsContext from '../context/StarwarsContext';
 
 function Table() {
   const { data, filteredContent, setOrder } = useContext(StarwarsContext);
-  // Referência: https://github.com/tryber/sd-09-project-starwars-planets-search/pull/12
+  // Referência:q https://github.com/tryber/sd-09-project-starwars-planets-search/pull/12
   const filteredPlanets = () => {
     let planetFiltered = data.results
       .filter((planet) => (
